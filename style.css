@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#todo-input {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin-right: 10px;
+  flex: 1;
+}
+
+button {
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+#todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.todo {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.todo-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.todo-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.todo-button:hover {
+  background-color: gray;
+}
